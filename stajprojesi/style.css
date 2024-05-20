@@ -1,0 +1,323 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hero-img{
+    background-image: url(img/armut\ heroimg.png);
+    height: 78vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.logo{
+    width: 75%;
+    margin-top: 12px;
+    margin-right: 25px;
+}
+.container-fluid{
+    display: flex;
+    width: 90% !important;
+}
+.navbar-brand{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 15%;
+}
+
+.nav-link{
+    color: white !important;
+    margin:0 0 0 15px !important;
+    padding: 0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase !important;
+    font-weight: bolder !important;
+    font-size: 14px !important;
+}
+.nav-help{
+      display: flex;
+      padding: 5px 12px !important;
+
+}
+.hizmet{
+    color:#29ff30 !important;
+    border: 1px solid #29ff30 !important;
+}
+.navbar-nav{
+    margin-top: 30px !important;
+}
+.navbar-nav a{
+    padding-bottom: 28px!important;
+}
+.slogan{
+transform: translate(-1%,68%);
+
+    
+}
+.slogan h1{
+ color: white;
+ font-size: 65px;
+ text-align: center;
+}
+.slogan h5{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+.arama{
+    transform: translate(34%,55%);
+}
+::placeholder{
+    color: #757575 !important;
+    font-size: 20px;
+    font-weight:400;
+    padding-left: 15px;
+}
+.btn{
+    background-color: #2cb34f !important;
+    color: white !important;
+    width: 110px !important;
+    border-radius: 0 5px 5px 0 !important;
+}
+.form-control{
+    height: 55px;
+    border-radius: 5px 0 0 5px !important;
+}
+/* !section */
+.section{
+    padding: 50px 0 0  !important;
+}
+.section-title{
+    color: #585965;
+    font-size: 30px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px 0 !important;
+    padding: 0 5px !important;
+    letter-spacing: 3px !important;
+}
+.section-container{
+    width: 75%;
+    margin: auto;
+}
+.col-3{
+    padding-top:15px !important;
+}
+.card-button{
+    display: none !important;
+}
+.card-button:hover{
+    display:contents !important;
+}
+.görsel-onay{
+    width: 75%;
+    margin: auto;
+    
+}
+.onay{
+    max-width: 85%;
+    margin-left: 3rem !important;
+}
+.tanıtım p:first-child{
+    margin-top: 155px;
+    font-size: 30px !important;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #585965;
+    font-weight: 600;
+    margin-left: 20px;
+    letter-spacing: 4px !important;
+    margin-bottom:3px !important;
+}
+.tanıtım p:nth-child(2){
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #757575;
+}
+.saat{
+    max-width: 85%;
+    padding: 2px !important;
+}
+.görsel-saat{
+    background-color:#F8F8F8 !important;
+}
+.görsel-container{
+    width: 75%;
+    margin: auto;
+}
+.broşür{
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.3);
+    padding: 0px !important ;
+}
+.aile{
+    background-image: url(img/aile-armut.png);
+    height: 540px !important;
+    width: 33% !important;
+   
+}
+.noter{
+    background-image: url(img/noter-armut.png);
+    width: 33% !important;
+}
+.mesaj{
+    background-image: url(img/mesaj-armut.png);
+    width:33% !important;
+}
+.broşür-content{
+    display: flex;
+    justify-content: space-between;
+}
+.broşür h2{
+    font-size: 48px !important;
+    color: #2cb34f;
+    text-align: center;
+    margin-top: 30px;
+}
+.broşür-h{
+    margin: 0 75px !important;
+}
+.broşür h5{
+    font-size: 22px !important;
+    text-align: center;
+}
+.broşür-p{
+    margin:0 15px !important;
+    text-align: center;
+    color: #757575;
+    position: relative;
+    margin-top: 25px !important;
+}
+.broşür-p p::before{
+    content: "";
+    border: 1px solid #2cb34f;
+    position: absolute;
+    width: 20px; 
+    margin-left: 138px !important; 
+    margin-top: -8px !important;
+}
+.app-img{
+    background-image: url(img/armut.telefon3.png);
+    background-size: cover; /* or contain, depending on your preference */
+    background-position: center;
+    margin: 150px 0  125px !important;
+    height: 400px !important;
+    width: 100% !important;
+}
+.app-h {
+    font-size: 24px !important;
+    color: white;
+    width: 50%;
+    height: 70% !important;
+    margin:0 0 0 420px;
+    padding: 5px 5px !important;
+}
+.app-h h4{
+    margin: 120px 0px 30px !important;
+    font-weight: 700 !important;
+    font-size: 26px !important;
+
+}
+.app-h p{
+    margin:15px 0 10px !important;
+    font-size: 16px !important;
+    letter-spacing: 1.3px;
+    width: 380px;
+    line-height: 1.75;  
+    text-align: left;
+    opacity: 0.7;
+    color: #fff;
+    font-weight: 500 !important;
+    margin-top: 35px !important;
+    margin-bottom: 25px !important;
+}
+.hizmet-title{
+    color: #585965;
+    font-size: 30px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px   !important;
+    margin-top: 130px !important;
+    padding: 0 5px !important;
+    letter-spacing: 3px !important;
+}
+.hizmetler{
+    width: 70%!important;
+    margin: auto !important;
+}
+.liste {
+    list-style-type: none;
+    padding: 0px !important;
+}
+.liste a{
+    text-decoration: none;
+    color:#2cb34f
+}
+.hayat{
+    display: flex;
+    margin-top: 150px !important;
+}
+.hayat-h h1{
+    width: 325px !important;
+    margin-left: 480px !important;
+    color: #757575;
+    font-size: 32px !important;
+    font-weight: 500 !important;
+    
+    
+}
+.hayat-ara button{
+    background-color: #2cb34f !important;
+    padding: 8px 125px !important;
+    border-radius:6px  !important;
+    border:0px #2cb34f;
+    display: inline-block;
+    color: white;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+}
+.hayat-h span{
+    color: #585965;
+    font-size: 32px !important;
+}
+.footer{
+    background-color: #404259;
+    height: 500px !important;
+    margin-top: 115px !important;
+}
+.footer-p{
+    text-align: center;
+    padding-top: 20px !important;
+    font-size: 13px !important;
+    color: #adaeb3;
+    font-weight: bolder;
+    letter-spacing: 2px !important;
+}
+.footer-nav{
+    width: 75% !important;
+    text-align: center !important;
+    margin-left: 180px !important;
+}
+.footer-nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, .7);
+    padding:5px 20px !important;
+    font-size: 12px !important;
+    letter-spacing: 1.3px !important;
+    line-height: 1.7;  
+}
+.footer-container{
+    width: 75%;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-başlık p:first-child{
+    margin-bottom: 8px !important;
+}
+.footer-başlık p{
+    margin: 0px !important;
+}
+
+
+
+ 
